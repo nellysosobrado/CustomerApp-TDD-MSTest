@@ -1,4 +1,4 @@
-# Customer Management Web Application
+# CustomerApp-TDD-MSTest
 
 This is a web application built with ASP.NET Core Razor Pages and Entity Framework Core using the Code First approach. It is designed to manage customer information in a structured, maintainable, and scalable way.
 
