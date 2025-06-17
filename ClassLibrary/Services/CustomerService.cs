@@ -68,9 +68,9 @@ namespace ClassLibrary.Services
         }
 
 
-        public IEnumerable<CustomerDTO> GetAllRichards()
+        public IEnumerable<CustomerDTO> GetAllNellys()
         {
-            var richards = _context.Customers
+            var nellys = _context.Customers
                 .Where(c => c.Name.Contains("Nelly"))
                 .Select(c => new CustomerDTO
                 {
@@ -80,7 +80,7 @@ namespace ClassLibrary.Services
                     Age = c.Age,
                     Birthday = c.Birthday,
                 });
-            return richards;
+            return nellys;
         }
     }
 }
