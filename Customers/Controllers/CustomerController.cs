@@ -1,4 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ClassLibrary.Services;
+using ClassLibrary.Data;
+using Customers.Views.Customer;
+using Tenta.Models.Customer;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Customers.Controllers;
 
