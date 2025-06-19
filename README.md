@@ -2,6 +2,10 @@
 
 This is a web application built with ASP.NET Core Razor Pages and Entity Framework Core using the Code First approach. It is designed to manage customer information in a structured, maintainable, and scalable way.
 
+![image](https://github.com/user-attachments/assets/eb1747d9-f346-4a38-8d62-a72d1177d501)
+
+
+
 ## Project Overview
 
 The application allows users to:
